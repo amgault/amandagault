@@ -1,0 +1,25 @@
+body {
+	background-color: #EFECF4;
+}
+
+.c-white { color: white; }
+
+.bg-grey { background-color: #59585A }
+
+.ta-c { text-align: center; }
+
+.fs-30 { font-size: 30px; }
+
+.pt-20 { padding-top: 20px; }
+
+.pb-20 { padding-bottom: 20px; }
+
+.w-half { 
+	float: left;
+	width: 50%;
+	margin: 0 auto 
+}
+
+.pdr { padding-right: 150px }
+
+.pdl { padding-left: 150px }
