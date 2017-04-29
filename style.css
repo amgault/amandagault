@@ -1,8 +1,19 @@
 body {
-	background-color: #EFECF4;
+	background-color: #efeee7;
 }
 
-.c-white { color: white; }
+.container {
+	margin: 0 auto;
+	width: 1024px;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.ff { font-family: "Georgia", "Times New Roman", Times, serif; }
+
+.f-l { float: left; }
+
+.c-white { color: #efeee7; }
 
 .bg-grey { background-color: #59585A }
 
@@ -14,12 +25,36 @@ body {
 
 .pb-20 { padding-bottom: 20px; }
 
-.w-half { 
+.m-r { margin-right: 20px; }
+
+a { color: #20B2AA; }
+
+img {
+	width: 200px;
+	height: 200px;
+}
+	
+.contact { 
 	float: left;
-	width: 50%;
-	margin: 0 auto 
+	width: 35%;
+	margin: 0 auto;
 }
 
-.pdr { padding-right: 150px }
+.mainbio { 
+	float: left;
+	width: 65%;
+	margin: 0 auto;
+}
 
-.pdl { padding-left: 150px }
+.pdl-15 { padding-left: 100px }
+
+
+
+
+
+
+
+
+
+
+
