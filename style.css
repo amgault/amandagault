@@ -1,5 +1,6 @@
 body {
 	background-color: #efeee7;
+	font-family: "Georgia", "Times New Roman", Times, serif;
 }
 
 .container {
@@ -9,7 +10,6 @@ body {
 	line-height: 150%;
 }
 
-.ff { font-family: "Georgia", "Times New Roman", Times, serif; }
 
 .f-l { float: left; }
 
