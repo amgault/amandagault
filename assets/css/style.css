@@ -1,56 +1,64 @@
+* {
+	box-sizing: border-box;
+}
 body {
-	background-color: #efeee7;
-	font-family: "Georgia", "Times New Roman", Times, serif;
+	background-image: url("assets/images/symphony.png");
 }
-
 .container {
-	margin: 0 auto;
-	width: 1024px;
-	font-size: 18px;
-	line-height: 150%;
+	display: -webkit-box;
+  	display: -moz-box;
+ 	display: -ms-flexbox;
+  	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column;
+	flex-flow: row;
+	justify-content: space-around;
+	background-image: url("assets/images/symphony.png");
 }
-
-
-.f-l { float: left; }
-
-.c-white { color: #efeee7; }
-
-.bg-grey { background-color: #59585A }
-
-.ta-c { text-align: center; }
-
-.fs-30 { font-size: 30px; }
-
-.pt-20 { padding-top: 20px; }
-
-.pb-20 { padding-bottom: 20px; }
-
-.m-r { margin-right: 20px; }
-
-a { color: #20B2AA; }
-
-img {
-	width: 200px;
-	height: 200px;
+.social {
+	width: 50px;
+	height: 50px;
 }
-	
-.contact { 
-	float: left;
-	width: 35%;
-	margin: 0 auto;
+.header {
+	display: -webkit-box;
+  	display: -moz-box;
+ 	display: -ms-flexbox;
+  	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row;
+	justify-content: space-around;
+	background: yellow;
 }
-
-.mainbio { 
-	float: left;
-	width: 65%;
-	margin: 0 auto;
+.name {
+	background: pink;
 }
-
-.pdl-15 { padding-left: 100px }
-
-
-
-
+.menu {
+	background: orange;
+}
+.about {
+	background: white;
+	width: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contact {
+	height: 150px;
+	background: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+}
+.footer {
+	width: 100%;
+	position: fixed;
+	background: purple;
+	text-align: center;
+	padding: 20px;
+	z-index: 2;
+}
 
 
 
